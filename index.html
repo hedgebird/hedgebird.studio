@@ -1,47 +1,82 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>hedgebird</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hedgebird</title>
 
-  <style>
-    body {
-      margin: 0;
-      background: #0d1117;
-      color: #e6e6e6;
-      font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
-      text-align: center;
-    }
+    <link rel="stylesheet" href="assets/css/base.css" />
+  </head>
 
-    img {
-      width: 140px;
-      margin-bottom: 20px;
-    }
+  <body>
+    <!-- SITE HEADER -->
+    <header class="site-header">
+      <img
+        class="mark mark--primary"
+        src="assets/img/marks/hedgebird-mark-primary.png"
+        alt="hedgebird"
+      />
+      <span class="wordmark">hedgebird</span>
+    </header>
 
-    h2 {
-      margin-bottom: 10px;
-      font-weight: 600;
-    }
+    <!-- DESK PAD -->
+    <div class="wrapper">
+      <main class="pad">
+        <section class="panel">
+          <h2>the studio</h2>
+          <p>
+            this is a small home for ideas, experiments, and projects in
+            progress. creativity and resourcefulness define the approach. some
+            work lives here, while some ventures out into the world.
+          </p>
+        </section>
 
-    p {
-      line-height: 1.6;
-      opacity: 0.9;
-    }
-  </style>
-</head>
+        <section class="panel">
+          <h2>on my desk</h2>
+          <ul>
+            <li>
+              <a href="https://pricetagprinter.netlify.app">
+                price tag printer
+              </a>
+              <span class="meta status">
+                (in progress, current version 1.14)
+              </span>
+            </li>
 
-<body>
-  <div>
-    <img src="https://raw.githubusercontent.com/hedgebird/hedgebird/main/icon.png">
-    <h2>hedgebird</h2>
-    <p>
-      useful little things<br>
-      made with intention
-    </p>
-  </div>
-</body>
+            <li class="placeholder">
+              <a href="#">next project</a>
+              <span class="meta">(to be determined)</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="panel">
+          <h2>scribble</h2>
+          <p>testing ideas, making notes, figuring things out as i go.</p>
+        </section>
+
+        <section class="panel">
+          <h2>recent</h2>
+          <ul>
+            <li>february 2026: got a new desk pad. already coffee stained.</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <!-- SITE FOOTER -->
+    <footer class="site-footer">
+      <img
+        class="mark mark--whisper"
+        src="assets/img/marks/hedgebird-mark-whisper.png"
+        alt=""
+        aria-hidden="true"
+      />
+
+      <div class="footer-text">
+        <div class="footer-quote">made with devotion.</div>
+        <div class="footer-email">hello [at] hedgebird [dot] studio</div>
+      </div>
+    </footer>
+  </body>
 </html>
