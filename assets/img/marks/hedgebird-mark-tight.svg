@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 28 300 270" role="img" aria-labelledby="title desc">
+  <title id="title">Hedgebird cardinal mark — smaller eye study</title>
+  <desc id="desc">A clean right-facing cardinal with a pointed crest and beak, a straight-backed square-tipped tail, a forward-shifted tapered white wing contour, and a slightly smaller white circular eye.</desc>
+
+  <!-- Tail -->
+  <path fill="#B15A5A" d="
+    M 27 275
+    L 118 193
+    L 108 226
+    L 49 286
+    L 27 286
+    Z
+  "/>
+
+  <!-- Body -->
+  <path fill="#B15A5A" d="
+    M 108 226
+    C 132 232, 165 234, 201 226
+    C 225 219, 245 206, 258 188
+    C 270 171, 276 149, 274 128
+    C 273 121, 277 116, 286 112
+    L 309 102
+    L 285 91
+    C 277 87, 272 82, 265 75
+    C 255 65, 242 56, 226 49
+    L 200 36
+    L 204 58
+    C 203 80, 195 102, 180 123
+    C 164 145, 142 169, 118 193
+    Z
+  "/>
+
+  <!-- Forward-shifted tapered wing contour -->
+  <path fill="#FFFFFF" d="
+    M 239 148
+    C 232 166, 220 181, 203 193
+    C 187 205, 168 214, 146 220
+    C 144.2 220.5, 143.0 219.4, 143.7 218.0
+    C 164 211.2, 181.8 202.7, 197.2 191.5
+    C 212.8 180.1, 224.1 165.8, 231.5 148.3
+    C 232.6 145.9, 237.1 145.8, 239 148
+    Z
+  "/>
+
+  <circle cx="253" cy="90" r="3.2" fill="#FFFFFF"/>
+</svg>
